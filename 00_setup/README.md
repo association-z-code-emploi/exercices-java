@@ -39,14 +39,14 @@ Peu importe votre choix : on indiquera dans ces exercices les deux manières. N�
     - pour macOS : on vous conseillera de télécharger le "**x64 DMG Installer**" ou de passer par un gestionnaire d'applicaitons comme [Homebrew](https://formulae.brew.sh/) puis par la formule pour [oracle-jdk](https://formulae.brew.sh/cask/oracle-jdk#default)
     - pour Linux : si vous savez utilisez ce système, vous savez normalement comment télécharger n'importe quel programme ! 😉
 2. Installation :
-  - lancez l'exécutable (par exemple sous Windows, il est recommandé de télécharger "*jdk-23_windows-x64_nbin.exe*")
+  - lancez l'exécutable (par exemple sous Windows, il est recommandé de télécharger "*jdk-23_windows-x64_bin.exe*")
   - suivez les instructions jusqu'à compléter l'installation ; notez aussi l'emplacement de l'installation de Java, qui sera utile pour la prochaine étape !
 3. Définir les variables d'environnement :
   - sous Windows :
     - chercher "*variables d'environnement*" dans votre menu Démarrer
     - dans les "*variables systèmes*" (ou "*variables utilisateur*" si vous avez plus d'une session sur votre ordinateur et qui ne sont pas les vôtres), trouvez la variable "**Path**" et modifiez-la, puis faites "**Nouveau**", puis collez le chemin de l'emplacement où se trouve le dossier "bin" dans le dossier que vous avez installez à l'étape 2 ; probablement "*C:\Program Files\Java\jdk-23\bin*"
   - sous macOS/Linux :
-    - si vous n'avez pas utilisé un gestionnaire d'applicaitons, ouvez votre terminal et éditez le fichier ".bashrc", ".zshrc" ou ".bash_profile" et ajoutez le code suivant :
+    - si vous n'avez pas utilisé un gestionnaire d'applications, ouvez votre terminal et éditez le fichier ".bashrc", ".zshrc" ou ".bash_profile" et ajoutez le code suivant :
       `export JAVA_HOME=/chemin/vers/jdk export PATH=$JAVA_HOME/bin:$PATH` ("/chemin/vers/jdk" devrait être remplacé par l'emplacement où se trouve JDK après téléchargement)
 4. Relancez votre ordinateur (ou parfois juste votre terminal)
 5. Vérifiez l'installation :
