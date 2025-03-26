@@ -6,7 +6,7 @@ tags:
 
 # Exercice 01 : Navette spatiale
 
-On retourne enfin à notre navette spatiale ... mais l'interface utilisateur manque encore de pas mal de fonctionnalités. Commençons par afficher ses informations grâce à des **méthodes** !
+Imaginons une navette spatiale ... mais dont l'interface utilisateur manque encore de pas mal de fonctionnalités. Commençons par afficher ses informations grâce à des **méthodes** !
 
 ## Consignes
 
