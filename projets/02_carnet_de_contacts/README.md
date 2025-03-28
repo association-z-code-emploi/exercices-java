@@ -35,15 +35,14 @@ Vous allez programmer une application à afficher dans le terminal permettant de
 - **Encapsulez** les attributs (privés, avec accès via getters/setters)
 - Stockez les contacts dans un **tableau**
 - Utilisez `Scanner` pour permettre à l'utilisateur d'interagir avec l'application ; pensez à gérer les erreurs de saisie (faute de frappe, contact inexistant, etc...)
-- Le choix de rechercher un contact par le nom, le numéro de téléphone ou l'email doit **être choisi au préalable**
 
 ## Conseils
 
 - Lisez et relisez bien les consignes.
 - Prenez le temps de prendre des notes si nécessaires, ou de faire du pseudo-code.
 - Donnez des noms clairs à vos variables.
+- Testez régulièrement.
 - Pensez à rendre l'interface dans le terminal un minimum agréable ; essayez par exemple d'aérer entre les commandes !
-- Testez régulièrement ; et faites une pause si vous coincez depuis un moment !
 - Quelque chose n'est pas indiqué et vous avez un doute ? Réfléchissez à ce qui vous semble être logique et utile pour l'utilisateur : faut-il absolument écrire en respectant la casse ? Devrait-on mettre en minuscule/majuscule durant les vérification, sans que l'utlisateur n'en sache rien ? Peu importe votre choix, tant que vous êtes capable de montrer que vous avez considérez les différentes options.
 
 ## Présentation
